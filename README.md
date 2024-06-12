@@ -1,3 +1,30 @@
+## Version Application
+- Laravel 11
+- PHP 8.3.7
+- Node 20.10.0
+
+## How To Setup
+- Clonning Application
+- Copy .env.example menjadi .env
+- Setup .env laravel dan setting DB_CONNECTION menjadi sqlite
+- Lalu setting DB_DATABASE, DB_USERNAME dan DB_PASSWORD sesuai database lokal anda
+- Jalankan composer install pada command 
+- Jalankan npm install pada command
+- Jalankan php artisan migrate
+- Jalankan php artisan db:seed
+
+- Setelah melakukan step-step diatas
+- Jalankan npm run dev bersamaan dengan php artisan serve
+
+## Tambahkan configuration berikut untuk login goggle dan facebook pada .env
+Silahkan buat CLIENT_ID dan CLIENT_SECRET anda untuk google dan facebook
+
+- GOOGLE_CLIENT_ID=""
+- GOOGLE_CLIENT_SECRET=""
+
+- FACEBOOK_CLIENT_ID=""
+- FACEBOOK_CLIENT_SECRET=""
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
